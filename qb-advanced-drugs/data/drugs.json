@@ -1,0 +1,29 @@
+[
+  {
+    "id": "moon_sugar",
+    "label": "Moon Sugar",
+    "enabled": true,
+    "rawItem": "moon_sugar_leaf",
+    "processedItem": "moon_sugar_paste",
+    "packagedItem": "moon_sugar_bag",
+    "gatherAmount": { "min": 1, "max": 3 },
+    "craftRecipe": [
+      { "item": "moon_sugar_leaf", "amount": 4 },
+      { "item": "empty_bag", "amount": 1 }
+    ],
+    "craftOutput": 1,
+    "packageRecipe": [
+      { "item": "moon_sugar_paste", "amount": 1 },
+      { "item": "empty_bag", "amount": 2 }
+    ],
+    "packageOutput": 2,
+    "sell": { "item": "moon_sugar_bag", "min": 120, "max": 210 },
+    "effect": { "armor": 10, "stress": -15, "duration": 45000 },
+    "locations": {
+      "gather": { "x": 2222.02, "y": 5577.12, "z": 53.85 },
+      "craft": { "x": 1391.85, "y": 3605.73, "z": 38.94 },
+      "package": { "x": 2433.28, "y": 4970.86, "z": 42.35 },
+      "dealer": { "x": -1172.25, "y": -1572.62, "z": 4.66 }
+    }
+  }
+]
